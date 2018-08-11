@@ -91,14 +91,9 @@ pushMatrix();
   fill(#ffffff);
   rect(-250, -411, 575, 120);
   popMatrix();
-
   pushMatrix();
   translate(600, 770); 
-  
-  // then pivot the grid
   rotate(radians(-45));
-  
-  // and draw the square at the origin
   strokeWeight(30);
   fill(#ffffff);
   rect(-95, -260, 495, 60);
@@ -108,26 +103,15 @@ pushMatrix();
   
     //rectangulo3
   pushMatrix();
-  // move the origin to the pivot point
   translate(200, 870); 
-  
-  // then pivot the grid
   rotate(radians(45));
-  
-  // and draw the square at the origin
   strokeWeight(0);
   fill(#ffffff);
   rect(-250, -411, 170, 120);
   popMatrix();
-  
   pushMatrix();
-  // move the origin to the pivot point
   translate(600, 770); 
-  
-  // then pivot the grid
   rotate(radians(45));
-  
-  // and draw the square at the origin
   strokeWeight(30);
   fill(#ffffff);
   rect(-430, -27, 105, 60);
@@ -137,26 +121,15 @@ pushMatrix();
   
    //rectangulo4
   pushMatrix();
-  // move the origin to the pivot point
   translate(445, 870); 
-  
-  // then pivot the grid
   rotate(radians(45));
-  
-  // and draw the square at the origin
   strokeWeight(0);
   fill(#ffffff);
   rect(-250, -411, 170, 120);
   popMatrix();
-  
   pushMatrix();
-  // move the origin to the pivot point
   translate(600, 770); 
-  
-  // then pivot the grid
   rotate(radians(45));
-  
-  // and draw the square at the origin
   strokeWeight(30);
   fill(#ffffff);
   rect(-260, -200, 105, 60);
@@ -166,12 +139,8 @@ pushMatrix();
   
      //rectangulo5
   pushMatrix();
-  // move the origin to the pivot point
   translate(405, 900); 
-  
-  // then pivot the grid
   rotate(radians(45));
-  
   
   
 }
